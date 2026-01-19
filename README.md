@@ -1,6 +1,6 @@
 # Software programs and datasets for quantifying degree of gramamticalization
 
-Implementations of the classifier-based methods for quantifying the degree of grammaticalization. All source codes are available under src/ while datasets are in data. The details of the methods are available in the following paper.
+Implementations of the classifier-based methods for quantifying the degree of grammaticalization. All source codes are available under src/ while datasets are in data/. The details of the methods are available in the following paper.
 
 ## Citation
 Please cite the following paper if you use the above resources.  
