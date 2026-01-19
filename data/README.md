@@ -2,6 +2,7 @@
 
 All files follow a CSV format where the first and second columns are target words and theirs scores/rankings of the degree of grammaticalization.
 Note that the larger the score is, the more the target word is grammaticalized while the smaller the rank is, the more the target word is grammaticalized.
+See the paper for their details.
 
 - deverbal_preposition_scores.csv: Degree (scores) of grammaticalization for English deverbal prepositions
 - noun_conj_ranks.csv: Degree (ranks) of grammaticalization for Japanese nouns possibly grammaticalized into a conjunctional particle
