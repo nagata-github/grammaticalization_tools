@@ -16,3 +16,6 @@ Estimate degree of grammaticalization by CV-learning.
      `python estimate_degree_of_grammaticization_by_classifier.py -f function_word_pos.dict -c content_word_pos.dict -e EMBEDDING_FILE CORPUS_FILE` (for English) 
 
      `python estimate_degree_of_grammaticization_by_classifier.py -f function_word_pos_jp.dict -c content_word_pos_jp.dict -e EMBEDDING_FILE CORPUS_FILE` (for Japanese) 
+
+
+Add -p option to estimate degree of grammaticalization by PU-learning. 
