@@ -224,7 +224,7 @@ def train_models_by_cv(function_words,
 
 
     other_pred_probs = []
-    for mode in models:
+    for model in models:
         other_pred_probs.append(model.predict_proba(other_vecs))
     other_pred_probs = np.sum(other_pred_probs, axis=0)/float(num_cv)
     other_word2func_prob = {}
@@ -232,7 +232,7 @@ def train_models_by_cv(function_words,
         other_word2func_prob[word] = probs[1]
 
     func_pred_probs = []
-    for mode in models:
+    for model in models:
         func_pred_probs.append(model.predict_proba(func_word_vecs))
     func_pred_probs = np.sum(func_pred_probs, axis=0)/float(num_cv)
     func_word2func_prob = {}
