@@ -220,7 +220,7 @@ def train_models_by_cv(function_words,
                     word2func_word_prob[word] =\
                         word2func_word_prob.get(word, 0.0) + probs[1]
     content_word2func_word_prob =\
-        { w: p/float(num_cv) for w, p in word2func_word_prob.items() }
+        { w: p/float(num_cv-1) for w, p in word2func_word_prob.items() }
 
 
     other_pred_probs = []
